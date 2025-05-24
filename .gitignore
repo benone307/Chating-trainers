@@ -133,5 +133,8 @@ dist
 .yarn/unplugged
 .yarn/build-state.yml
 .yarn/install-state.gz
-.pnp.*
-  openaiKey: "sk-proj-kWXGNazFmpDySfun P8-5LuWBGb9aCwGq6kJ_C N20phx7nPBCewWXrwVo3Grh sWledqFYYRooQxT3BlbkFJIXX JOke ONBnİZNBtDdw5WxZIAZv 2Q3fSVshOHC6SKCssUGdP OvZrewbqH-LOdpi3rkwjnEVKA",  piWalletAddress: "GB4BFDQHJKSUHONG74JDCGDENFETLQM4HTQ7P6AKQBP5PLYFBKAFE4SD"
+.pnp.*# Hide sensitive files
+.env
+pi-wallet.json
+  openaiKey: "sk-proj-kWXGNazFmpDySfun P8-5LuWBGb9aCwGq6kJ_C N20phx7nPBCewWXrwVo3Grh sWledqFYYRooQxT3BlbkFJIXX JOke ONBnİZNBtDdw5WxZIAZv 2Q3fSVshOHC6SKCssUGdP OvZrewbqH-LOdpi3rkwjnEVKA",  piWalletAddress: "GB4BFDQHJKSUHONG74JDCGDENFETLQM4HTQ7P6AKQBP5PLYFBKAFE4SD"const openaiKey = import.meta.env.VITE_OPENAI_API_KEY;
+const piWalletKey = import.meta.env.VITE_PI_WALLET_KEY;
